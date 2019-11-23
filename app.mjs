@@ -1,5 +1,5 @@
 //app.mjs
-import test from "./modules.mjs";
+import {test} from "./modules.mjs";
 const dog="Papilon";
 const cat = "The cat is Garfield";
 const random_p = document.querySelector('.random > p');
