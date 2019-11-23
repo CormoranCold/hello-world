@@ -1,7 +1,7 @@
 //app.mjs
-//import test from "./modules/modules.mjs";
+import test from "./modules.mjs";
 const dog="Papilon";
 const random_p = document.querySelector('.random > p');
 random_p.innerHTML = dog;
-mobileConsole.init();
+random_p.innerHTML += test();
 console.log('hiya');
